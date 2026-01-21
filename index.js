@@ -16,7 +16,7 @@ const decisionTree = {
     // The first question (starting point)
     start: {
         type: "question",
-        question: "What is your motivation for taking the course?",
+        question: "What is your motivation for taking the course???",
         options: [
             { text: "Developing a specific skill", next: "skill_type" },
             { text: "Connecting to a future career", next: "career_type" },
