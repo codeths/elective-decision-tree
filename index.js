@@ -74,7 +74,7 @@ const decisionTree = {
         type: "question",
         question: "Which credit are you looking to fulfill?",
         options: [
-            { text: "Math", next: "result_math" },
+            { text: "Mathematics", next: "result_math" },
             { text: "Career and Technical Education (CTE)", next: "cte_type" },
             { text: "Fine Arts", next: "finearts_type" },
             { text: "History", next: "result_history" },
